@@ -54,8 +54,8 @@ class Person {
     constructor(id, name) {
         this.id = id;
         this.name = name;
-        console.log(id, name);
     }
 }
 const edward = new Person(1, 'Edward');
 const mike = new Person(2, 'Mike');
+console.log(edward.id);
